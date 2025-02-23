@@ -12,7 +12,7 @@ def home():
 
 @app.route("/htop")
 def htop():
-    full_name = "Shivam Kumar"  # Replace with your actual full name
+    full_name = "Shivam Kumar"
     username = os.getenv("USER") or os.getenv("USERNAME") or "Unknown"
     
     ist = pytz.timezone('Asia/Kolkata')
