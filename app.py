@@ -28,6 +28,7 @@ def htop():
         <p><strong>Name:</strong> {full_name}</p>
         <p><strong>Username:</strong> {username}</p>
         <p><strong>Server Time (IST):</strong> {server_time}</p>
+        <p><strong>TOP Output:</strong></p>
         <pre>{top_output}</pre>
     </body>
     </html>
